@@ -1,0 +1,220 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.ARMELLE{
+    background-color: #DE6262 !important;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-center{
+    font-style: italic;
+}
+.banner-sec{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.container{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1); font-family: 'Times New Roman', Times, serif;}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #DE6262;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#FEB58A; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #DE6262; color:#fff; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+
+
+
+.adja{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #DE6262;
+
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+.img-logo{
+    width: 150px;
+    height: 100px;
+    padding-right: 35px;
+}
+.btn btn-outline-info{
+    align-items: flex-end;
+}
+.fd{
+    display: flex;
+    flex-direction: row;
+}
+.goch-fd{
+    border: 1px solid rgb(182, 178, 178);
+    padding: 40px 20px 12px 40px;
+    margin: 70px 20px 20px 20px;
+    background-color: rgb(12, 8, 8);
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.btn-danger{
+    margin-left: 100px;
+}
+.titre-fd{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.droite-fd{
+    border: 1px solid rgb(182, 178, 178);
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.boutton{
+float: right;
+}
+
+
+
+
+
+/* le css du de la liste des étudiants */
+.team{
+    background:url(/pictures/salle.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.team_top h1{
+    text-transform: uppercase;
+    color: #008ccd;
+    font-size: 50px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+.member{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin-left: 20px;
+}
+.img img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+.m_text h3{
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #00cdcd;
+
+}
+.m_text h5{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.m_text p{
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.m_menu{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -35px;
+    background: #fff;
+    padding: 10px;
+    opacity: 0;
+}
+.m_menu ul{
+    margin-bottom: 0px;
+}
+.m_menu ul li a i{
+    color: #F2CE5F;
+}
+.m_menu ul li a{
+    display: block;
+    padding: 7px;
+    font-size: 18px;
+}
+.member:hover .m_menu{
+    opacity: 1;
+    bottom: -40px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    background-color: #111;
+}
+.member:hover .m_text h3{
+    color: #F2CE5F;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+.team{
+    background-image: url(/image/bouche.png);
+}
+/* .mellare{
+color: white;
+text-align: center;
+margin-top:10%;
+} */
+.team2{
+    margin-left: 28%;
+    background-color:white;
+    top:110px;
+   padding-bottom: 20px;
+
+}
+
+/* le css du modal pour l'envoi du mail */
+.le-titre-du-modale{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.entete-du-modal{
+    background-color: #000;
+}
+
+ .background-des-champs{
+    background-color: #000;
+}
